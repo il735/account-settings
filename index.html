@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Account Settings</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+    <div class="header">
+      <h1>Account settings</h1>
+      <button aria-label="close">X</button>
+    </div>
+    <div class="container">
+      <img class="ceo" src="img/avatar.jpg" alt="CEO">
+      <div class="user-name">
+        <label for="username-input">USERNAME</label>
+        <input class="username" type="text" name="Username" id="username-input" placeholder="Enter your username" required>
+      </div>
+      <div class="names">
+        <div class="first-name">
+          <label for="first-name">FIRST NAME</label>
+          <input type="text" name="First-name" id="first-name" placeholder="Enter your first name" required>
+        </div>
+        <div class="last-name">
+          <label for="last-name">LAST NAME</label>
+          <input type="text" name="Last-name" id="last-name" placeholder="Enter your last name" required>
+        </div>
+      </div>
+      <div class="email">
+        <label for="email">EMAIL</label>
+        <input type="text" name="Email" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="bio">
+        <label for="bio">BIO</label>
+        <p>Tell us about yourself</p>
+        <input type="text" name="BIO" id="bio" required>
+      </div>
+    </div>
+    <div class="footer-buttons">
+      <button class="cancel" aria-label="Cancel">Cancel</button>
+      <button class="save" aria-label="Save">Save</button>
+    </div>
+  </form>
+</body>
+</html>

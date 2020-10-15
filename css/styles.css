@@ -1,0 +1,90 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+}
+*:focus{
+box-shadow: -3px 3px 3px 0 rgb(244, 248, 4);
+}
+.form{
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 300px;
+  margin-bottom: 300px;
+  background-color: yellow;
+  max-width: 800px;
+  padding: 50px;
+}
+button{
+  border: none;
+  background: none;
+}
+.ceo{
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+  margin-bottom: 40px;
+}
+.footer-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  margin-left: auto;
+  margin-top: auto;
+  background-color: none;
+}
+.container{
+  margin-left: 80px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  background-color: #fff;
+  width: 750px;
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+input{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: -1px;
+  margin-bottom: 30px;
+}
+label{
+  margin-bottom: 10px;
+}
+.user-name{
+  display: flex;
+  flex-direction: column;
+}
+.first-name{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.last-name{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.names{
+  display: flex;
+}
+.email, .bio{
+display: flex;
+flex-direction: column;
+}
+.bio p{
+  margin-bottom: 100px;
+  margin-top: 0;
+  color: rgb(87, 86, 86);
+}
